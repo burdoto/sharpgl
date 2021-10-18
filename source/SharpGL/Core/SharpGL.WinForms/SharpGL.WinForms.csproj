@@ -77,4 +77,7 @@
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" Condition="'$(TargetFramework)' == 'net45'" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" Condition="'$(TargetFramework)' == 'net472'" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NETDesignSurface\Designers" />
+  </ItemGroup>
 </Project>
